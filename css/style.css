@@ -1,0 +1,169 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    /* background-color: #e3ecc2; */
+}
+
+/* Global Selector */
+.global-h{
+    font-family: 'Ubuntu', sans-serif;
+}
+.global-p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.global-btn{
+    width: 250px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 50px;
+    background-color: #7287ae;
+    color: white;
+    font-size: 18px;
+    margin: 50px 0;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Header Section */
+#header{
+    width: 100%;
+    float: left;
+    background: url(../img/bg_hero.png) no-repeat center;
+    background-size: cover;
+}
+#header-bar{
+    width: 100%;
+    float: left;
+    padding: 50px;
+}
+.logo-part{
+    width: 30%;
+    float: left;
+}
+.logo-part img{
+    width: 40%;
+}
+.menu-part{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.menu-part nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Hero Section */
+#hero{
+    width: 100%;
+    float: left;
+    margin-bottom: -100px;
+}
+.hero{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.hero h1{
+    color: white;
+    font-size: 85px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.hero p{
+    color: white;
+    margin: 10px 0 250px;
+}
+
+/* Feature Part */
+#feature{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-feature.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.feature{
+    width: 100%;
+    float: left;
+    
+}
+.feature h1{
+    color: #7287ae;
+    margin: 100px;
+    font-size: 40px;
+}
+.content{
+    width: 100%;
+    float: left;
+}
+.content-box{
+    width: 33%;
+    float: left;
+}
+.content-box img{
+    width: 60%;
+}
+.content-text{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    margin: -5px 0 0 90px;
+    text-align: left;
+}
+.content-text h3{
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+.content-text p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.content-text h4{
+    font-size: 18px;
+}
+.feature button{
+    
+}
+
+/* Section 3 */
+#section3{
+    width: 100%;
+    float: left;
+}
+.sec3-img-part{
+    width: 50%;
+    float: left;
+}
+.sec3-text-part{
+    width: 50%;
+    float: left;
+}
+
+/* Section 4 */
+#section4{
+    width: 100%;
+    float: left;
+}
+.sec4-img-part{
+    width: 50%;
+    float: left;
+}
+.sec4-text-part{
+    width: 50%;
+    float: left;
+}
